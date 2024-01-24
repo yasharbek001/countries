@@ -1,0 +1,88 @@
+.button {
+    display: inline-flex;
+    gap: 10px;
+    margin: 80px 1224px 0 80px;
+    align-items: center;
+    padding: 10px 39px 10px 32px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+    border: none;
+    cursor: pointer;
+}
+
+/* .text {
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+} */
+
+.card {
+    display: flex;
+}
+
+.btnFlag {
+    width: 559px;
+}
+
+.img {
+    padding: 80px 0 0 80px;
+}
+
+.countryInfo {
+    display: flex;
+    margin: 239px 0 0 120.29px;
+    width: 598px;
+    height: 323px;
+    flex-shrink: 0;
+}
+
+.nativeName {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* opacity: 0.4; */
+}
+
+.text2 {
+    margin-left: 5px;
+    color: #111517;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.domain {
+    display: flex;
+    flex-direction: column;
+    margin: 67px 0 0 141px;
+}
+
+.border {
+    margin: 534px 0 0 -595px;
+    padding-top: -70px;
+    padding-bottom: 384px;
+}
+
+.countries {
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* opacity: 0.4; */
+}

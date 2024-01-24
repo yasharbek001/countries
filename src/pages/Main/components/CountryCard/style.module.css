@@ -1,0 +1,49 @@
+.card {
+    width: calc(100% / 4 - 75px);
+    margin-left: 75px;
+    margin-bottom: 75px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    text-decoration: none;
+}
+
+.cardBody {
+    padding: 24px;
+}
+
+.image {
+    width: 267px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+.title {
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+}
+
+.dt {
+    display: inline;
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.dd {
+    margin: 5px;
+    display: inline;
+    color: #585757;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
