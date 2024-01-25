@@ -7,7 +7,7 @@ export const Country = ({flag,countryName, nativeName, population, region, subre
     const {name} = useParams()
     
     const nativeValue = Object.values(nativeName)
-    const native = nativeValue[1].official || nativeValue[0].official
+    const native = nativeValue[1]?.official || nativeValue[0]?.official
 
     const currenciesValue = Object.values(currencies)
     const currency = currenciesValue[0].name
@@ -57,7 +57,7 @@ export const Country = ({flag,countryName, nativeName, population, region, subre
             </div>
             <div className={style.border}>
                 <span className={style.countries}>Border Countries: 
-                    <span className={style.text2}>{borders.map(item => <span style={{marginLeft:5}} key={item}>{item}</span>)}</span>
+                    <span className={style.text2}>{borders?.map(item => <span style={{marginLeft:5}} key={item}>{item}</span>)}</span>
                 </span>
             </div>
             <span>Name:</span>
