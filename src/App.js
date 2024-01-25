@@ -16,3 +16,6 @@ function App() {
 }
 
 export default App;
+// unused-vars": "warn",
+// "unused-imports/no-unused-imports": "warn",
+// "unused-impor

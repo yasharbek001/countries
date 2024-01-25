@@ -14,10 +14,10 @@
     "plugins": ["react", "react-hooks"],
     "rules": {
         "react/react-in-jsx-scope": "off",
-        "react/prop-types": "off",
-        "no-unused-vars": "warn",
-        "unused-imports/no-unused-imports": "warn",
-        "unused-imports/no-unused-vars": "warn"
+        "react/prop-types": "off"
+        // "no-unused-vars": "warn",
+        // "unused-imports/no-unused-imports": "warn",
+        // "unused-imports/no-unused-vars": "warn"
         
       //add customize rules here as per your project's needs
     }
