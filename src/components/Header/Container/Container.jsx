@@ -1,4 +1,3 @@
-import { Children } from "react"
 import style from "./style.module.css"
 
 export const HeaderContainer = ({children}) => {
