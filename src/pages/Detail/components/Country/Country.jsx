@@ -13,7 +13,7 @@ export const Country = ({flag,countryName, nativeName, population, region, subre
     const currency = currenciesValue[0].name
 
     const languageValue = Object.values(languages)
-    const language = languageValue[1] || languageValue[0]        z
+    const language = languageValue[1] || languageValue[0]        
 
    
     return (
