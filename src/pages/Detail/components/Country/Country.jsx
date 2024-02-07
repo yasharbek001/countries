@@ -13,7 +13,7 @@ export const Country = ({flag,countryName, nativeName, population, region, subre
     const currency = currenciesValue[0].name
 
     const languageValue = Object.values(languages)
-    const language = languageValue[1] || languageValue[0]        
+    const language = languageValue[1] || languageValue[0]        z
 
    
     return (
@@ -60,8 +60,6 @@ export const Country = ({flag,countryName, nativeName, population, region, subre
                     <span className={style.text2}>{borders?.map(item => <span style={{marginLeft:5}} key={item}>{item}</span>)}</span>
                 </span>
             </div>
-            <span>Name:</span>
-            <p className={style.text}>{native}</p>
         </article>
     )
 }
